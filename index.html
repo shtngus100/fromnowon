@@ -21,9 +21,17 @@
     font-size:13px; line-height:1.6; color:#111; background:#fff;
     padding:32px; -webkit-font-smoothing:antialiased; word-break:keep-all;
   }
+  nav { display:flex; gap:16px; margin-bottom:24px; }
+  nav a { color:#111; text-decoration:none; opacity:.4; }
+  nav a:hover, nav a[aria-current="page"] { opacity:1; }
 </style>
 </head>
 <body>
+  <nav>
+    <a href="/" aria-current="page">home</a>
+    <a href="https://fromnowon-uxax.vercel.app">uxax</a>
+    <a href="https://fromnowon-motion.vercel.app">motion</a>
+  </nav>
   <p>from now on</p>
   <p>NICU 퇴원 후 이른둥이 연속 케어 시스템</p>
   <p>Coming soon</p>
